@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Mr. Ben Wells
 ---
 
+<!-- original -->
 <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
@@ -11,3 +12,32 @@ title: Your New Jekyll Site
     {% endfor %}
   </ul>
 </div>
+
+
+<!-- from the rails app -->
+{{include personal_description.html}}
+
+
+<div class="row clearfix">
+  <div class="col-md-3 column"></div>
+  <div class="col-md-6 column">
+    <ul class="media-list">
+      <% @posts.each do |p| %>
+        <li class="media">
+          <%= link_to p, {:class => 'pull-left'} do %>
+            <i class="fa fa-bookmark fa-3x"></i>
+          <% end %>
+          <div class="media-body">
+            <%= link_to p do %>
+              <h4 class="media-heading"><%= p.title %></h4>
+            <% end %>
+            <p><i><%= p.abstract %></i></p>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="col-md-3 column"></div>
+</div>
+
+
