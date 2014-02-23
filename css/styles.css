@@ -122,3 +122,6 @@ p {
        url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
        url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+.nav-pills li, #logo {
+  visibility: none;
+}
