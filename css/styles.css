@@ -122,7 +122,8 @@ p {
        url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
        url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-#logo, .fa-github {
+/*#logo, .fa-github {
   visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
+*/
