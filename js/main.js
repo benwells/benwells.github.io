@@ -6,5 +6,5 @@ $('document').ready(function() {
     logo.removeClass('fadeIn').parent().addClass('grow').mouseover(function (){
       $(this).removeClass('fadeIn').addClass('grow'); 
     });
-  },1500)
+  },1500);
 });
