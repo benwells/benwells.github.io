@@ -10,7 +10,7 @@ excerpt: I wanted my nav links to fade out before traveling to the next page, he
 
 My starting point for the CSS transitions scattered around this site is a library created by Justin Aguilar, and can be found on his site [here][ja].
 
-Justin has created a very nice collection CSS animations that are perfect for entraces, hover effects, and constant animations. I used his "fadeIn" class animation as my starting point for my exit animation class, "fadeOut".
+Justin has created a very nice collection CSS animations that are perfect for entrances, hover effects, and constant animations. I used his "fadeIn" class animation as my starting point for my exit animation class, "fadeOut".
 
 ####My resulting code looks something like this:
 
