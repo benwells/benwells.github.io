@@ -12,7 +12,7 @@ var lib = {
     }
   },
   nav_pill_click_handler: function () {
-    $('a').click(function (e) {
+    $('#navPills').find('a').click(function (e) {
       var t    = this,
           href = t.href;
 
