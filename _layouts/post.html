@@ -3,13 +3,16 @@ layout: default
 ---
 
 <div class="row clearfix">
-  <div class="col-md-3 column"></div>
-  <div class="col-md-6 column">
-    <div class="post">
-      <h1><small>{{ page.date | date_to_string }}</small>  {{ page.title }}</h1>
+  <div class="col-md-2 column"></div>
+  <div class="col-md-8 column">
+    <div class="text-center">
+      <h1>{{ page.title }}</h1>
+      <h1><small>{{ page.date | date_to_string }}</small></h1>
+    </div>
       <!-- <p class="meta">{{ page.date | date_to_string }}</p> -->
+    <div id="post-content">
       {{ content }}
     </div>
   </div>
-  <div class="col-md-3 column"></div>
+  <div class="col-md-2 column"></div>
 </div>

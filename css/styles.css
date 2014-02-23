@@ -1,10 +1,9 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
 body {
   background-color: #66CCCC;
   padding-bottom: 70px;
-  font-family: 'Roboto', sans-serif;
-}
-html {
-  font-family: 'Roboto', sans-serif;
 }
 a {
   /*color: #069;*/
@@ -122,6 +121,20 @@ p {
        url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
        url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
-.post {
-  font-family: 'Roboto', sans-serif;
+
+/* POST LAYOUT STYLES */
+#post-content {
+  background: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  
+}
+#post-content p {
+  font-size: medium;
+  margin-bottom: 30px;
+}
+h1 small {
+  color: #5C5C5C;
 }
