@@ -21,7 +21,7 @@ I am hosting this site using the fabulous [Github Pages][gpages]. It is built an
 
 Great work to all those who make Jekyll possible!
 
-As I continue to work on this site, I will post more about some of the cool thing I learn as I go!
+As I continue to work on this site, I will post more about some of the cool things I learn as I go!
 
 ####Other technologies used in the making of this blog so far:
 
