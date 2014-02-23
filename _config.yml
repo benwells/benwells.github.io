@@ -1,3 +1,4 @@
 name: Mr. Ben Wells
 markdown: redcarpet
 pygments: true
+excerpt_separator: <!--more-->

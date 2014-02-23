@@ -3,7 +3,7 @@ layout: default
 title: Mr. Ben Wells
 ---
 
-{{include personal_description.html}}
+{% include personal_description.html %}
 
 <div class="row clearfix">
   <div class="col-md-3 column"></div>
@@ -19,6 +19,7 @@ title: Mr. Ben Wells
               <h4 class="media-heading">{{ post.title }}</h4>
               <small>{{ post.date | date_to_string }}</small>
             </a>
+            <br>
             <br>
             <br>
             <p><i>{{ post.excerpt }}</i></p>
