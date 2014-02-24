@@ -1,0 +1,8 @@
+- name: Fullscreen Calculator 
+  repo: fullscreen-calculator
+
+- name: What Should We Play?
+  repo: whatshouldweplay
+
+- name: Waxtracker
+  repo: waxtracker
