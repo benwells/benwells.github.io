@@ -141,3 +141,7 @@ h1, h2, h3, h4, h5, h6, #post-content ul, #post-content ol {
 h1 small {
   color: #5C5C5C;
 }
+.thumbnail img {
+width: 300px;
+height: auto;
+}

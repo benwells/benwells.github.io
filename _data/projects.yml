@@ -1,8 +1,10 @@
 - name: Fullscreen Calculator 
   repo: fullscreen-calculator
+  demourl: /fullscreen-calculator
+  image: calc.png
 
-- name: What Should We Play?
-  repo: whatshouldweplay
+# - name: What Should We Play?
+#   repo: whatshouldweplay
 
-- name: Waxtracker
-  repo: waxtracker
+# - name: Waxtracker
+#   repo: waxtracker
