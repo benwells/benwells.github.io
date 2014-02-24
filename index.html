@@ -9,9 +9,10 @@ title: Mr. Ben Wells
   <div class="col-md-3 column"></div>
   <div class="col-md-6 column">
     <ul class="media-list">
-      {% for post in site.posts %}
+
+      {% for post in site.categories.blog %}
         <li class="media">
-          <a href="{{ post.url }}" class='pull-left'>
+          <a href="{{ post.url }}" class='pull-right'>
             <i class="fa fa-bookmark fa-3x"></i>
           </a>
           <div class="media-body">
