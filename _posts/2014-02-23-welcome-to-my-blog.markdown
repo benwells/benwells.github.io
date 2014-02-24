@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome my new site!"
 date:   2014-02-23 11:20:31
-categories: development blog
+categories: blog
 excerpt: My very first blog post. What to expect, how this site is built, and a little about me.
 ---
 ## Here's what to expect.

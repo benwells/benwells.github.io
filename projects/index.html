@@ -8,3 +8,79 @@ layout: default
   </div>
   <div class="col-md-3 column"></div>
 </div>
+
+<div class="row clearfix">
+  <div class="col-md-3 column"></div>
+  <div class="col-md-6 column">
+    <ul class="media-list">
+
+      {% for post in site.categories.project %}
+
+        <!-- old -->
+        <li class="media">
+          <a href="{{ post.url }}" class='pull-left'>
+            <i class="fa fa-bookmark fa-3x"></i>
+          </a>
+          <div class="media-body">
+            <a href="{{ post.url }}" class='pull-left'>
+              <h4 class="media-heading">{{ post.title }}</h4>
+              <small>{{ post.date | date_to_string }}</small>
+            </a>
+            <br>
+            <br>
+            <br>
+            <p><i>{{ post.excerpt }}</i></p>
+          </div>
+        </li>
+
+        <!-- new -->
+        <div class="row clearfix">
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img data-src="holder.js/300x200" alt="..." src="img/icon3.png">
+                <div class="caption">
+                  <h3>AngularJS Calculator</h3>
+                  <p>One of my first projects using the AngularJS Framwork. A simple calculator.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Code</a> <a href="#" class="btn btn-default" role="button">Live</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img alt="..." src="img/icon3.png">
+                <div class="caption">
+                  <h3>Waxtracker</h3>
+                  <p>A Vinyl Record Collection Manager/Social Network.  Written in Ruby on Rails.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Code</a> <a href="#" class="btn btn-default" role="button">Live</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img data-src="holder.js/300x200" alt="..." src="img/icon3.png">
+                <div class="caption">
+                  <h3>What Should We Play?</h3>
+                  <p>A web app designed to help Jazz Musicians pick Tunes on the gig.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Code</a> <a href="#" class="btn btn-default" role="button">Live</a></p>
+                </div>
+              </div>
+            </div><div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img data-src="holder.js/300x200" alt="..." src="img/icon3.png">
+                <div class="caption">
+                  <h3>What Should We Play?</h3>
+                  <p>A web app designed to help Jazz Musicians pick Tunes on the gig.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Code</a> <a href="#" class="btn btn-default" role="button">Live</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-md-3 column"></div>
+</div>
+
