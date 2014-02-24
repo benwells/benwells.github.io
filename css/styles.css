@@ -126,7 +126,9 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 20px;
-  
+  -webkit-box-shadow: 4px 4px 9px 0px rgba(50, 50, 50, 0.66);
+  -moz-box-shadow:    4px 4px 9px 0px rgba(50, 50, 50, 0.66);
+  box-shadow:         4px 4px 9px 0px rgba(50, 50, 50, 0.66);
 }
 #post-content p {
   font-size: medium;
