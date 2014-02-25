@@ -5,15 +5,15 @@ body {
 a {
   /*color: #069;*/
   color: #004F77;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 .lead {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 a:hover {
   text-decoration: none;
   background: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 .navbar-fixed-top {
   height: 10px;
@@ -97,10 +97,10 @@ a:hover {
 }
 .media-heading {
   color: #004F77;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 @media (max-width: 890px) {
   .navbar-fixed-bottom {
@@ -133,10 +133,10 @@ p {
 #post-content p {
   font-size: medium;
   margin-bottom: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 h1, h2, h3, h4, h5, h6, #post-content ul, #post-content ol {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Esteban', serif;
 }
 h1 small {
   color: #5C5C5C;
@@ -144,4 +144,8 @@ h1 small {
 .thumbnail img {
 width: 300px;
 height: auto;
+}
+.lead {
+  letter-spacing: 1.5px;
+  /*font-family: 'Noto Sans', sans-serif;*/
 }
