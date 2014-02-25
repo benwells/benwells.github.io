@@ -96,7 +96,8 @@ a:hover {
   text-decoration: none;
 }
 .media-heading {
-  color: #004F77;
+  /*color: #004F77;*/
+  color: black;
   font-family: 'Esteban', serif;
 }
 p {
