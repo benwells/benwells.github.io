@@ -1,5 +1,6 @@
 body {
-  background-color: #66CCCC;
+  /*background-color: #66CCCC;*/
+  background: url('../img/bg2.png');
   padding-bottom: 70px;
 }
 a {
@@ -38,8 +39,9 @@ a:hover {
   padding-right: 15px;
 }
 .orange {
-  background-color: #C63;
-  background: #C63;
+  background-color: black;
+  background: black;
+  /*background: #C63;*/
   border-bottom: none;
   border-top: none;
 }
