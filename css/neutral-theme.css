@@ -1,6 +1,6 @@
 body {
   /*background-color: #66CCCC;*/
-  background: url('../img/bg2.png');
+  background: url('../img/bg2-dark.png');
   padding-bottom: 70px;
 }
 a {
@@ -68,7 +68,8 @@ a:hover {
 .centered-pills a { 
   float:left; 
   font-size: large;
-  color:#004F77;
+  /*color:#004F77;*/
+  color:black;
 }
 .nav-pills li a:hover {
   background-color: #FFCC66;
@@ -88,9 +89,15 @@ a:hover {
   margin-bottom: 25px;
   margin-top: 5px;
 }
+#personal-desc p {
+  background: url('../img/content_bg.png');
+  background-size: 100% 100%;
+  color:white;
+  padding:12px;
+}
 .media a, h1 a {
   text-decoration: none;
-  color: #004F77;
+  /*color: #004F77;*/
 }
 .media a:hover, h1 a:hover {
   color:#004F77;
@@ -149,6 +156,6 @@ width: 300px;
 height: auto;
 }
 .lead {
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   /*font-family: 'Noto Sans', sans-serif;*/
 }
