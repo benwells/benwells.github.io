@@ -1,20 +1,27 @@
 body {
   /*background-color: #66CCCC;*/
-  background: url('../img/bg2-dark.png');
+  background: url('../img/bg2-dark.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*background-size: 100%;*/
   padding-bottom: 70px;
+  font-family: 'Arial', sans-serif;
 }
 a {
   /*color: #069;*/
   color: #004F77;
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 .lead {
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 a:hover {
   text-decoration: none;
   background: none;
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 .navbar-fixed-top {
   height: 10px;
@@ -64,6 +71,7 @@ a:hover {
   margin-top: 30px;
 }
 .centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills ul { height: 40px; }
 .centered-pills li { display:inline; }
 .centered-pills a { 
   float:left; 
@@ -72,10 +80,14 @@ a:hover {
   color:black;
 }
 .nav-pills li a:hover {
-  background-color: #FFCC66;
+  /*background-color: #303030;*/
+  /*background-color: #FFCC66;*/
+  border: 1px solid black;
+  background: none;
 }
 .lead {
-  font-size: large;
+  font-size: 18px;
+  /*font-size: large;*/
 }
 .thumbnail img {
   width:300px;
@@ -90,10 +102,11 @@ a:hover {
   margin-top: 5px;
 }
 #personal-desc p {
-  background: url('../img/content_bg.png');
-  background-size: 100% 100%;
-  color:white;
+  /*background: url('../img/content_bg.png');*/
+  /*background-size: 100% 100%;*/
+  color:black;
   padding:12px;
+  font-size: x-large;
 }
 .media a, h1 a {
   text-decoration: none;
@@ -107,10 +120,10 @@ a:hover {
 .media-heading {
   /*color: #004F77;*/
   color: black;
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 p {
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 @media (max-width: 890px) {
   .navbar-fixed-bottom {
@@ -120,14 +133,14 @@ p {
     display: block;
   }
 }
-@font-face {
+/*@font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../assets/glyphicons-halflings-regular.eot');
   src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
        url('../assets/glyphicons-halflings-regular.woff') format('woff'), 
        url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
        url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
+}*/
 
 /* POST LAYOUT STYLES */
 #post-content {
@@ -143,10 +156,10 @@ p {
 #post-content p {
   font-size: medium;
   margin-bottom: 30px;
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 h1, h2, h3, h4, h5, h6, #post-content ul, #post-content ol {
-  font-family: 'Esteban', serif;
+  /*font-family: 'Esteban', serif;*/
 }
 h1 small {
   color: #5C5C5C;
