@@ -12,19 +12,15 @@ title: Mr. Ben Wells
 
       {% for post in site.categories.blog %}
         <li class="media">
-          <a href="{{ post.url }}" class='pull-right'>
-           
-          </a>
           <div class="media-body">
             <a href="{{ post.url }}" class='pull-left'>
               <h4 class="media-heading">
-                _<!-- <i class="fa fa-terminal"></i> -->{{ post.title }}_</h4>
+                _<!-- <i class="fa fa-terminal"></i> -->{{ post.title }}</h4>
               <small>{{ post.date | date_to_string }}</small>
             </a>
             <br>
             <br>
-            <br>
-            <p><i>{{ post.excerpt }}</i></p>
+            <p>{{ post.excerpt }}</p>
           </div>
         </li>
       {% endfor %}

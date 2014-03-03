@@ -10,17 +10,10 @@ body {
   padding-bottom: 70px;
   font-family: 'Arial', sans-serif;
 }
-a {
-  /*color: #069;*/
-  color: #004F77;
-  /*font-family: 'Esteban', serif;*/
-}
-.lead {
-  /*font-family: 'Esteban', serif;*/
-}
 a:hover {
   text-decoration: none;
   background: none;
+  color: white;
   /*font-family: 'Esteban', serif;*/
 }
 .navbar-fixed-top {
@@ -45,13 +38,6 @@ a:hover {
   min-height: 60px; 
   padding-right: 15px;
 }
-.orange {
-  background-color: black;
-  background: black;
-  /*background: #C63;*/
-  border-bottom: none;
-  border-top: none;
-}
 .page-header {
   border-bottom: none;
 }
@@ -62,9 +48,6 @@ a:hover {
 }
 .fa-github {
   color:black;
-}
-.fa-arrow-left {
-  color:;
 }
 .centered-pills { 
   text-align:center; 
@@ -165,10 +148,18 @@ h1 small {
   color: #5C5C5C;
 }
 .thumbnail img {
-width: 300px;
-height: auto;
+  width: 300px;
+  height: auto;
 }
 .lead {
   letter-spacing: 2px;
-  /*font-family: 'Noto Sans', sans-serif;*/
+}
+.media-body p {
+  display: inline-block;
+}
+.white {
+  color: white;
+}
+.black {
+  background-color: black;
 }

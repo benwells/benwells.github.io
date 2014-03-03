@@ -24,10 +24,16 @@ var lib = {
         window.location = href;
       }, 200);
     });  
+  },
+  register_media_hover: function () {
+    $('li.media').hover(function(){ 
+      $('small, h4', this).toggleClass('white');
+    });
   }
 };
 
 $('document').ready(function() {
   lib.init_animations_url('/');
   lib.nav_pill_click_handler();
+  lib.register_media_hover();
 });
