@@ -10,12 +10,13 @@ title: Mr. Ben Wells
   <div class="col-md-6 column">
     <ul class="media-list">
 
-      {% for post in site.categories.blog %}
+      {% for post in site.posts limit: 10 %}  
         <li class="media">
           <div class="media-body">
             <a href="{{ post.url }}" class='pull-left'>
               <h4 class="media-heading">
-                _<!-- <i class="fa fa-terminal"></i> -->{{ post.title }}</h4>
+                _{{ post.title }}
+              </h4>
               <small>{{ post.date | date_to_string }}</small>
             </a>
             <br>
