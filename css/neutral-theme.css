@@ -127,8 +127,8 @@ h1 small {
   width: 300px;
   height: auto;
 }
-.white {
-  color: white;
+.bold {
+  font-weight: bold;
 }
 @media (max-width: 890px) {
   .navbar-fixed-bottom {

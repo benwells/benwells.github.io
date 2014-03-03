@@ -27,7 +27,7 @@ var lib = {
   },
   register_media_hover: function () {
     $('li.media').hover(function(){ 
-      $('small, h4', this).toggleClass('white');
+      $('small, h4', this).toggleClass('bold');
     });
   }
 };
