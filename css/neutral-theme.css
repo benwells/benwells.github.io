@@ -1,6 +1,7 @@
 body {
-  /*background-color: #66CCCC;*/
-  background: url('../img/bg2-dark.png') no-repeat center center fixed; 
+  background-color: #BDBDBD;
+  /*background-color: #D8D8D8;*/
+  background: url('../img/bg2-dark2.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
