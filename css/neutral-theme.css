@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+  background: none;
+}
 body {
   /*background-color: #D8D8D8;*/
   background: url('../img/bg2-dark3.jpg') no-repeat center center fixed; 
@@ -6,16 +10,70 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  /*background-size: 100%;*/
   padding-bottom: 70px;
   font-family: 'Arial', sans-serif;
 }
-a:hover {
+.black {
+  background-color: black;
+}
+.centered-pills { 
+  text-align:center; 
+  margin-top: 30px;
+}
+.centered-pills a { 
+  float:left; 
+  font-size: large;
+  color:black;
+}
+.centered-pills li { 
+  display:inline; 
+}
+.centered-pills ul.nav-pills { 
+  display:inline-block; 
+}
+.centered-pills ul { 
+  height: 40px; 
+}
+.fa-github {
+  color:black;
+}
+h1 small {
+  color: #5C5C5C;
+}
+.icon-row {
+  height: 60px;
+  min-height: 60px; 
+  padding-right: 15px;
+}
+.lead {
+  letter-spacing: 2.5px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+.media a, h1 a {
   text-decoration: none;
+}
+.media a:hover, h1 a:hover {
+  color:#004F77;
   background: none;
-  color: white;
-  /*font-family: 'Esteban', serif;*/
+  text-decoration: none;
+}
+.media-body p {
+  display: inline-block;
+}
+.media-body a {
+  color: navy;
+}
+.media-heading {
+  color: black;
+}
+.navbar-fixed-bottom {
+  background: none;
+  border-top:none;
+  box-shadow:none;
 }
 .navbar-fixed-top {
   height: 10px;
@@ -24,109 +82,22 @@ a:hover {
 .navbar-fixed-top .icon-row {
   display:none;
 }
-.navbar-fixed-bottom {
-  background: none;
-  border-top:none;
-  box-shadow:none;
-}
-.small-row {
-  height: 10px;
-  min-height: 10px; 
-  margin-bottom: 0px;
-}
-.icon-row {
-  height: 60px;
-  min-height: 60px; 
-  padding-right: 15px;
-}
-.page-header {
-  border-bottom: none;
-}
-#logo {
-  height: 150px;
-  width: 150px;
-  margin: 0 auto;
-}
-.fa-github {
-  color:black;
-}
-.centered-pills { 
-  text-align:center; 
-  margin-top: 30px;
-}
-.centered-pills ul.nav-pills { display:inline-block; }
-.centered-pills ul { height: 40px; }
-.centered-pills li { display:inline; }
-.centered-pills a { 
-  float:left; 
-  font-size: large;
-  /*color:#004F77;*/
-  color:black;
-}
 .nav-pills li a:hover {
-  /*background-color: #303030;*/
-  /*background-color: #FFCC66;*/
   border: 1px solid black;
   background: none;
 }
-.lead {
-  font-size: 18px;
-  /*font-size: large;*/
-}
-.thumbnail img {
-  width:300px;
-  height:300px;
-}
-.thumbnail {
-  background: none;
-  border: none;
+.page-header {
+  border-bottom: none;
 }
 #personal-desc {
   margin-bottom: 25px;
   margin-top: 5px;
 }
 #personal-desc p {
-  /*background: url('../img/content_bg.png');*/
-  /*background-size: 100% 100%;*/
   color:black;
   padding:12px;
   font-size: x-large;
 }
-.media a, h1 a {
-  text-decoration: none;
-  /*color: #004F77;*/
-}
-.media a:hover, h1 a:hover {
-  color:#004F77;
-  background: none;
-  text-decoration: none;
-}
-.media-heading {
-  /*color: #004F77;*/
-  color: black;
-  /*font-family: 'Esteban', serif;*/
-}
-p {
-  /*font-family: 'Esteban', serif;*/
-}
-@media (max-width: 890px) {
-  .navbar-fixed-bottom {
-    display:none;
-  }
-  .navbar-fixed-top .icon-row {
-    display: block;
-  }
-}
-/*@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../assets/glyphicons-halflings-regular.eot');
-  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-       url('../assets/glyphicons-halflings-regular.woff') format('woff'), 
-       url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
-       url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}*/
-
-/* POST LAYOUT STYLES */
 #post-content {
   background: white;
   padding: 10px;
@@ -142,25 +113,27 @@ p {
   margin-bottom: 30px;
   /*font-family: 'Esteban', serif;*/
 }
-h1, h2, h3, h4, h5, h6, #post-content ul, #post-content ol {
-  /*font-family: 'Esteban', serif;*/
+.small-row {
+  height: 10px;
+  min-height: 10px; 
+  margin-bottom: 0px;
 }
-h1 small {
-  color: #5C5C5C;
+.thumbnail {
+  background: none;
+  border: none;
 }
 .thumbnail img {
   width: 300px;
   height: auto;
 }
-.lead {
-  letter-spacing: 2px;
-}
-.media-body p {
-  display: inline-block;
-}
 .white {
   color: white;
 }
-.black {
-  background-color: black;
+@media (max-width: 890px) {
+  .navbar-fixed-bottom {
+    display:none;
+  }
+  .navbar-fixed-top .icon-row {
+    display: block;
+  }
 }
