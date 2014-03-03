@@ -1,7 +1,7 @@
 body {
-  background-color: #BDBDBD;
   /*background-color: #D8D8D8;*/
-  background: url('../img/bg2-dark2.jpg') no-repeat center center fixed; 
+  background: url('../img/bg2-dark3.jpg') no-repeat center center fixed; 
+  background-color: #BDBDBD;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
