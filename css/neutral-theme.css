@@ -64,6 +64,11 @@ h1 small {
   background:white;
   margin-bottom: 0px;
 }
+.navbar-default {
+  border:none;
+  border-left: 10px solid #000;
+  border-radius:0px;
+}
 .navbar-toggle {
   float:none;
 }
@@ -111,7 +116,6 @@ h1 small {
 #post-content p {
   font-size: medium;
   margin-bottom: 30px;
-  /*font-family: 'Esteban', serif;*/
 }
 .small-row {
   height: 10px;
@@ -128,14 +132,6 @@ h1 small {
 }
 .title {
   padding-bottom: 3px;
-}
-@media (max-width: 890px) {
-  .navbar-fixed-bottom {
-    display:none;
-  }
-  .navbar-fixed-top .icon-row {
-    display: block;
-  }
 }
 @media (max-width: 700px) {
   #cinner {
