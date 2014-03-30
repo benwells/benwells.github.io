@@ -104,18 +104,22 @@ h1 small {
   font-size: x-large;
 }
 #post-content {
-  background: white;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 20px;
-  -webkit-box-shadow: 4px 4px 9px 0px rgba(50, 50, 50, 0.66);
-  -moz-box-shadow:    4px 4px 9px 0px rgba(50, 50, 50, 0.66);
-  box-shadow:         4px 4px 9px 0px rgba(50, 50, 50, 0.66);
 }
 #post-content p {
-  font-size: medium;
+  font-size: large;
   margin-bottom: 30px;
+  line-height: 180%;
+}
+#post-date {
+  color: #A7A7A7;
+}
+#post-title blockquote {
+  padding: 10px 10px 10px 23px;
+  border-left: 7px solid #EEE;
+  margin: 40px -30px 30px -30px;
 }
 .small-row {
   height: 10px;
