@@ -14,31 +14,12 @@ body {
   border-right: 5px solid #EEE;
   text-align: right;
 }
-.centered-pills {
-  text-align:center;
-  margin-top: 30px;
-}
-.centered-pills a {
-  float:left;
-  font-size: large;
-  color:black;
-}
-.centered-pills li {
-  display:inline;
-}
-.centered-pills ul.nav-pills {
-  display:inline-block;
-}
-.centered-pills ul {
-  height: 40px;
-}
 #cinner {
   margin: 0 auto;
   width: 66%;
   min-width:555px;
 }
 .container-fluid {
-/*  width:60%;*/
   margin-top: 70px;
   text-align:center;
 }
@@ -49,11 +30,11 @@ h1 small {
   color: #5C5C5C;
 }
 #hero {
-  height:125px;
   background: url('../img/bg2-dark3.jpg') no-repeat center center fixed;
   background-size: 100% 100%;
-  width:100%;
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+  height:125px;
+  width:100%;
 }
 .icon-row {
   height: 60px;
@@ -66,8 +47,8 @@ h1 small {
 }
 #logo {
   height: 150px;
-  width: 150px;
   margin: 0 auto;
+  width: 150px;
 }
 #logolink:hover {
   color: #4E4E4E;
@@ -75,20 +56,6 @@ h1 small {
 #logolink {
   text-decoration:none;
   color: black;
-}
-.media a, h1 a {
-  text-decoration: none;
-}
-.media a:hover, h1 a:hover {
-  color:#004F77;
-  background: none;
-  text-decoration: none;
-}
-.media-body p {
-  display: inline-block;
-}
-.media-body a {
-  color: navy;
 }
 .media-heading {
   color: black;
@@ -159,6 +126,9 @@ h1 small {
   width: 300px;
   height: auto;
 }
+.title {
+  padding-bottom: 3px;
+}
 @media (max-width: 890px) {
   .navbar-fixed-bottom {
     display:none;
@@ -170,5 +140,8 @@ h1 small {
 @media (max-width: 700px) {
   #cinner {
     min-width: 300px;
+  }
+  .postdate {
+    display:block;
   }
 }
