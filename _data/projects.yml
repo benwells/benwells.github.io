@@ -2,11 +2,13 @@
   repo: fullscreen-calculator
   demourl: /fullscreen-calculator
   image: calc.png
+  tags: angularjs - jquery - bootstrap
 
 - name: What Should We Play?
   repo: whatshouldweplay
   demourl: /whatshouldweplay
   image: whatshouldweplay.png
+  tags: jquery - bootstrap
 
 # - name: Waxtracker
 #   repo: waxtracker
