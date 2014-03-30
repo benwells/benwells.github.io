@@ -23,12 +23,22 @@ var lib = {
       setTimeout(function (){
         window.location = href;
       }, 200);
-    });  
+    });
   },
   register_media_hover: function () {
-    $('li.media').hover(function(){ 
+    $('li.media').hover(function(){
       $('small, h4', this).toggleClass('bold');
     });
+  },
+  scroll_home: function (urlPatten) {
+    var path = window.location.href.replace('http://benwells.github.io','').replace('http://localhost:4000','');
+
+    if (urlPatten == path) {
+      $(document).scroll(function() {
+        if ($('#hero').height() > 80) {
+          $("#hero").animate({ height: '80px' }, 360); }
+      });
+    }
   }
 };
 
@@ -36,4 +46,6 @@ $('document').ready(function() {
   lib.init_animations_url('/');
   lib.nav_pill_click_handler();
   lib.register_media_hover();
+  // lib.scroll_home("/");
+
 });

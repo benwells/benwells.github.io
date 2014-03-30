@@ -1,30 +1,29 @@
-<!-- top bar -->
-<nav class="navbar navbar-default navbar-fixed-top black" role="navigation">
-  <div class='small-row black'></div>
-  <div class='icon-row'>
-    <a href="https://github.com/benwells" target="_blank" class='grow pull-right'><i class='fa fa-github fa-4x slideLeft'></i></a>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div id='cinner'>
+      <div class="navbar-header">
+        <a href="/" id='logolink'>
+          <span id='nmr'>MR</span>
+          <span id='nben'>BEN</span>
+          <span id='nwells'>WELLS</span>
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id='collapse'>
+        <ul class="nav navbar-nav">
+          <li><a href="{{site.url}}/about">About</a></li>
+          <li><a href="{{site.url}}/projects">Projects</a></li>
+          <li><a href="http://www.benwellsmusic.com" target="_blank">Music</a></li>
+          <li><a href="{{site.url}}/resume">Resume</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </nav>
-
-<!-- bottom bar -->
-<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-  <div class='icon-row'>
-    <a href="https://github.com/benwells" target="_blank" class='grow pull-right'><i class='fa fa-github fa-4x slideLeft'></i></a>
-  </div>
-  <div class='small-row'></div>
-</nav>
-
-<!-- header img and nav -->
-<div class="page-header text-center" style="text-align:center;">
-  
-  <a href='/'><img src="{{site.url}}/img/icon7.png" id="logo" class=''></a>
-
-  <div class='centered-pills'>
-    <ul class="nav nav-pills fadeIn" id="navPills">
-      <li class="float"><a href="/">Words</a></li>
-      <li class="float"><a href="{{site.url}}/projects">Projects</a></li>
-      <li class="float"><a href="http://www.benwellsmusic.com" target="_blank">Music</a></li>
-      <li class="float"><a href="{{site.url}}/resume">Resume</a></li>
-    </ul>
-  </div>
-</div>
+<div id='hero'></div>

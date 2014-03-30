@@ -2,26 +2,23 @@
 layout: default
 title: Mr. Ben Wells
 ---
-
-{% include personal_description.html %}
-
+<br>
+<br>
 <div class="row clearfix">
-  <div class="col-md-3 column"></div>
-  <div class="col-md-6 column">
+<!--   <div class="col-md-1 column"></div> -->
+  <div class="col-md-8 col-md-offset-2">
     <ul class="media-list">
 
-      {% for post in site.posts limit: 10 %}  
+      {% for post in site.posts limit: 10 %}
         <li class="media">
           <div class="media-body">
-            <a href="{{ post.url }}" class='pull-left'>
+            <a href="{{ post.url }}">
               <h4 class="media-heading">
-                _{{ post.title }}
+                <span class='title pull-left'>{{ post.title }}</span>
+                <small class='pull-right'>{{ post.date | date_to_string }}</small>
               </h4>
-              <small>{{ post.date | date_to_string }}</small>
             </a>
-            <br>
-            <br>
-            <p>{{ post.excerpt }}</p>
+<!--             <p>{{ post.excerpt }}</p> -->
           </div>
         </li>
       {% endfor %}
@@ -29,5 +26,3 @@ title: Mr. Ben Wells
   </div>
   <div class="col-md-3 column"></div>
 </div>
-
-
