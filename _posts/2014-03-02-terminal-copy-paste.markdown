@@ -6,7 +6,7 @@ categories: blog
 excerpt: How to copy and paste content using the Mac OS X Terminal
 ---
 
-### A Quick Tip:
+### _A Quick Tip_
 
 <br>
 This is something I do fairly often, but apparently not frequently enough for it to stick into my long-term memory. I'm hoping that by sharing this little bit of knowledge, I will remember it myself for next time I need it.  Copying and pasting in the Max OSX Terminal can be very useful, and here is how I approach it.
@@ -25,9 +25,5 @@ This is something I do fairly often, but apparently not frequently enough for it
 
 {% endhighlight %}
 <br>
-Happy coding!
-<br>
-<br>
 Cheers,<br>
 Ben
-
