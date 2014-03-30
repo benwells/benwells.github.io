@@ -6,16 +6,16 @@ title: Mr. Ben Wells
 <br>
 <div class="row clearfix">
 <!--   <div class="col-md-1 column"></div> -->
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-6 col-md-offset-3">
     <ul class="media-list">
 
       {% for post in site.posts limit: 10 %}
         <li class="media">
           <div class="media-body">
             <a href="{{ post.url }}">
-              <h4 class="media-heading">
-                <span class='title pull-left'>{{ post.title }}</span>
-                <small class='pull-right'>{{ post.date | date_to_string }}</small>
+              <h4 class="media-heading" style='text-align:right;margin-right:30px;'>
+                <span class='title'>{{ post.title }}</span>
+                <small class='postdate'>{{ post.date | date_to_string }}</small>
               </h4>
             </a>
 <!--             <p>{{ post.excerpt }}</p> -->
