@@ -9,6 +9,11 @@ body {
 .black {
   background-color: black;
 }
+#desc > blockquote {
+  border-left: none;
+  border-right: 5px solid #EEE;
+  text-align: right;
+}
 .centered-pills {
   text-align:center;
   margin-top: 30px;
