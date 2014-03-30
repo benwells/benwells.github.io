@@ -64,11 +64,6 @@ h1 small {
   background:white;
   margin-bottom: 0px;
 }
-.navbar-default {
-  border:none;
-  border-left: 10px solid #000;
-  border-radius:0px;
-}
 .navbar-toggle {
   float:none;
 }
