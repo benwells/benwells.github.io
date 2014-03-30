@@ -8,21 +8,34 @@ layout: default
   </div>
   <div class="col-md-3 column"></div>
 </div>
-<br><br>
+<br>
 <div class="row clearfix">
   {% for project in site.data.projects %}
-    <!-- new -->
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="img/{{ project.image }}" alt="...">
-        <div class="caption">
-          <h3>{{project.name}}</h3>
-          <p>Testing</p>
-          <p><a href="http://www.github.com/benwells/{{project.repo}}" class="btn btn-primary" role="button">Source</a> <a href="{{ project.demourl }}" class="btn btn-default" role="button">Live Demo</a></p>
-        </div>
+    <div class="proj-container">
+      <div class='proj'>
+        <blockquote>
+          <h2>
+            <b>{{project.name}}</b>
+            <span class="proj-toolbar pull-right">
+              <a href="http://www.github.com/benwells/{{project.repo}}">
+                <span class="fa-stack grow">
+                  <i class="fa fa-square-o fa-stack-2x"></i>
+                  <i class="fa fa-code-fork fa-stack-1x"></i>
+                </span>
+              </a>
+              <a href="{{ project.demourl }}">
+                <span class="fa-stack grow">
+                  <i class="fa fa-square-o fa-stack-2x"></i>
+                  <i class="fa fa-eye fa-stack-1x"></i>
+                </span>
+              </a>
+            </span>
+          </h2>
+          <small>{{project.tags}}</small>
+        </blockquote>
+        <img src="img/{{ project.image }}">
       </div>
     </div>
   {% endfor %}
   </div>
 </div>
-
