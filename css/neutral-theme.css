@@ -141,6 +141,7 @@ h1 small {
   border-top-right-radius: 30px;
   border-bottom: 5px solid #EEE;
   border-left: 5px solid #EEE;
+  width:100%;
 }
 .small-row {
   height: 10px;
