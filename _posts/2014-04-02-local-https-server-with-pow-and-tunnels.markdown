@@ -21,7 +21,7 @@ excerpt:
 2.  To start the tunnels server, run `sudo tunnels` (or `rvmsudo tunnels` if you are using rvm).
 3.  With the tunnels server running, you should now be able to access your files at https://<appname>.dev.  
 
-4.  To reference files on portal,  simply copy the full https path to your file in a <script> or <link> tag in a portal header/footer
+4.  To reference files on portal,  simply copy the full https path to your file in a \<script> or \<link> tag in a portal header/footer
 
 --
 ##Resources
