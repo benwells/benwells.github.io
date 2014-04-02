@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Configuring a Local HTTPS Server with Pow.cx and Tunnels"
+title:  "Run a local HTTPS server with pow and tunnels"
 date:   2014-04-02
 categories: blog
 excerpt: 
