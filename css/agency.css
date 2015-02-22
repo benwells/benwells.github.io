@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: white;
 }
 
 .navbar-default .nav li a:hover,
@@ -232,6 +232,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    .img-circle {
+      height: 85px;
+    }
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -319,6 +322,10 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+}
+
+.img-circle {
+  height: 66px;
 }
 
 section {
@@ -579,6 +586,9 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+    .img-circle {
+        height: 135px;
+    }
     .timeline>li {
         min-height: 150px;
     }
@@ -589,7 +599,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         width: 150px;
-        height: 150px;
+        height: 136px;
         margin-left: -75px;
     }
 
@@ -607,6 +617,9 @@ section h3.section-subheading {
 @media(min-width:1200px) {
     .timeline>li {
         min-height: 170px;
+    }
+    .img-circle {
+      height: 155px;
     }
 
     .timeline>li .timeline-panel {

@@ -1,0 +1,39 @@
+- title: ...and so it began
+  timespan: 1985
+  image: http://www.benrsmith.com/wp-content/uploads/2013/05/asheville.jpg
+  class: timeline-image
+  description: |
+    Born and raised in Asheville, NC, I love the outdoors.
+    My full time jobs were Climbing Trees, Mountain Biking, Golf, and Hockey
+
+- title: College Grad!
+  timespan: 2007
+  image: http://upload.wikimedia.org/wikipedia/commons/8/83/Randolph_hall_college_of_charleston.JPG
+  class: timeline-inverted
+  description: |
+    Received a Bachelor of Arts in Music ( Jazz Performance ) from the
+    College of Charleston, minoring in Arts Management.
+
+- title: Continuing Education <br> (College Grad...again!)
+  timespan: 2007 - 2009
+  image: http://upload.wikimedia.org/wikipedia/commons/8/83/Randolph_hall_college_of_charleston.JPG
+  class: timeline-image
+  description: |
+    Simultaneosly received both my Artist Certificate from the College of
+    Charleston as well as an Associate's Degree in Computer Scient from
+    Trident Technical College
+
+- title: Growing Up
+  timespan: 2012
+  image: http://www.theweddingrow.com/wp-content/uploads/2012/09/Charleston-Weddings_600.jpg
+  class: timeline-inverted
+  description: |
+    Married the love of my live and began my journey as a Software
+    Engineer with Good Done Great
+
+- title: Graduate School...the home stretch
+  timespan: 2011 - 2014
+  image: http://1.bp.blogspot.com/_5pNHGqdzPds/S0-14um1P9I/AAAAAAAAB5I/ubvWb4OEEV8/s1600/university_of_south_carolina_wallpaper_10.gif
+  class: timeline-image
+  description: |
+    Received a Master of Software Engineering from the University of South Carolina
