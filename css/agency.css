@@ -56,7 +56,7 @@ h6 {
     font-weight: 700;
 }
 
-.img-centered {
+entered {
     margin: 0 auto;
 }
 
@@ -336,8 +336,10 @@ header .intro-text .intro-heading {
     }
 }
 
-.img-circle {
-  height: 66px;
+@media(max-width:767px) {
+  .img-circle {
+    height: 66px;
+  }
 }
 
 section {
