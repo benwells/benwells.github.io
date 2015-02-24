@@ -1,0 +1,28 @@
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">About Me</h3>
+                <p class="section-subheading text-muted" style="font-size:16px">
+                  I’m Full Stack Web Developer and Asheville native now living in Charleston, SC.
+                  <br>
+                  I’m working at Good Done Great with a stellar engineering team, building
+                  Web Applications that Revolutionize Philanthropy.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center">
+          {% for interest in site.data.interests %}
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa {{ interest.iconClass }} fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">{{ interest.title }}</h4>
+                <p class="text-muted">{{ interest.description }}</p>
+            </div>
+          {% endfor %}
+        </div>
+    </div>
+</section>
