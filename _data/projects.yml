@@ -22,3 +22,17 @@
     little application helps jazz musicians answer the question "What should we play?".
     Shake your device to choose a random song, and choose a feel or time signature to allow
     for some potentially unusual song choices.
+
+- name: Ben's New Project Template
+  repo: node-project-template
+  demourl: http://www.github.com/benwells/node-project-template
+  image: http://carlosazaustre.es/blog/content/images/2014/12/grunt_work-1-1.jpg
+  tags: node - bower - grunt
+  modalId: portfolioModal3
+  subtitle: Designed to get me up and running quickly.
+  description: |
+    Taking a queue from Yeoman, I wanted to start my own "new project template" using tools
+    that I utilize in my projects on a daily basis.  I hope to cut down significantly on the
+    "grunt work" (no pun intended) required to get a new project off the ground.  I will be
+    adding to this template repo as I work, adding new tools on a regular basis.  I hope to
+    one day turn this baby into a Yeoman generator as well!
