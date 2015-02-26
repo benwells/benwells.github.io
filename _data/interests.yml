@@ -8,4 +8,6 @@
 
 - title: Scalability and Deployment
   iconClass: fa-gears
-  description:  I'm an Amazon Web Services fanatic with a passion for clustered, cloud-based infrastructure. I focus on automated deployment and scalable architecture using Linux, Grunt, and Chef,.
+  description: |
+    I'm an Amazon Web Services fanatic with a passion for clustered, cloud-based infrastructure. 
+    I focus on automated deployment and scalable architecture using Linux, Grunt, and Chef.
