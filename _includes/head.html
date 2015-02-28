@@ -9,7 +9,9 @@
     <title>{{ site.title }}</title>
 
     {% for link in site.data.link_tags %}
-      <link href="{{ link.href }}" rel="stylesheet">
+      {% if link.layout == include.layout or link.layout == "all" %}
+        <link href="{{ link.href }}" rel="stylesheet">
+      {% endif %}
     {% endfor %}
 
     {% include shim.html %}
