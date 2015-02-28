@@ -87,6 +87,9 @@ a {
 #sidebar-footer {
   position:absolute;bottom:5px;
 }
+#sidebar-footer > li {
+  float:left;
+}
 #footer {
   margin-bottom:20px;
 }
