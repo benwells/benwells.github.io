@@ -30,7 +30,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
-  // Default task(s).
+  // Register Task
   grunt.registerTask('default', ['watch']);
   grunt.registerTask('add-tag', function (tagSlug, tagName) {
 
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       "---"
     ].join("\n");
 
-    //create new tag md file 
+    //create new tag md file
     grunt.file.write('blog/tag/' + tagSlug + ".md", contents);
   });
 
