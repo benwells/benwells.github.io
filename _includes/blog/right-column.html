@@ -1,0 +1,62 @@
+<!-- main -->
+<div class="column col-sm-9" id="main">
+  <div class="padding">
+    <div class="full col-sm-9">
+
+      <!-- content -->
+      <div class="col-sm-12" id="allstories">
+        <div class="page-header text-muted">
+          {% if page.activeTag == "any" %}
+            All Stories
+          {% else %}
+            Stories tagged "{{ page.activeTag }}"
+          {% endif %}
+        </div>
+      </div>
+
+      {% if page.activeTag == "any" %}
+        {% for post in site.posts %}
+          {% include blog/single_post.html post=post %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.tags[page.activeTag] %}
+          {% include blog/single_post.html post=post %}
+        {% endfor %}
+      {% endif %}
+
+      <!-- Up Next Section -->
+      <!-- <div class="col-sm-12">
+        <div class="page-header text-muted divider">
+          Up Next
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <h4>Related 1</h4>
+          <a href="#">
+            <img src="//placehold.it/400/f0f0f0" class="img-respsonsive img-circle">
+          </a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h4>Related 2</h4>
+          <a href="#">
+            <img src="//placehold.it/400/f0f0f0" class="img-respsonsive img-circle">
+          </a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h4>Related 3</h4>
+          <a href="#">
+            <img src="//placehold.it/400/f0f0f0" class="img-respsonsive img-circle">
+          </a>
+        </div>
+      </div>
+
+      <hr> -->
+
+    </div>
+    <!-- /col-9 -->
+  </div>
+  <!-- /padding -->
+</div>
+<!-- /main -->

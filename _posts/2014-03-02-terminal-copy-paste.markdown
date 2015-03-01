@@ -4,6 +4,7 @@ title:  "Copying and Pasting in the Mac OSX Terminal"
 date:   2014-03-02
 categories: blog
 excerpt: How to copy and paste content using the Mac OS X Terminal
+tags: [OSX, Terminal, Tutorial]
 ---
 
 ### _A Quick Tip_

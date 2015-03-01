@@ -1,0 +1,32 @@
+- href: http://getbootstrap.com/dist/css/bootstrap.min.css
+  layout: "all"
+
+- href: /css/agency.css
+  layout: "default"
+
+- href: /css/clean-blog.min.css
+  layout: "post"
+
+- href: /font-awesome/css/font-awesome.min.css
+  layout: "all"
+
+- href: http://fonts.googleapis.com/css?family=Montserrat:400,700
+  layout: "all"
+
+- href: http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic
+  layout: "all"
+
+- href: http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700
+  layout: "all"
+
+- href: http://fonts.googleapis.com/css?family=Lato:300,400,700,900
+  layout: "all"
+
+- href: http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic
+  layout: "post"
+
+- href: http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800
+  layout: "post"
+
+- href: /css/blog-styles.css
+  layout: "blog"

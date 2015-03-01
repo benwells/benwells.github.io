@@ -4,6 +4,7 @@ title:  "Adding a Custom CSS Exit Transition Animation"
 date:   2014-02-23 16:20:31
 categories: blog
 excerpt: I wanted my nav links to fade out before traveling to the next page, here is how I did it.
+tags: [ CSS, Tutorial, Animation, HTML5 ]
 ---
 
 ### _First things first. Giving credit where credit is due_.
