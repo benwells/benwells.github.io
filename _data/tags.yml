@@ -2,8 +2,6 @@
   name: OSX
 - slug: ruby
   name: Ruby
-- slug: servers
-  name: Servers
 - slug: tutorial
   name: Tutorial
 - slug: music

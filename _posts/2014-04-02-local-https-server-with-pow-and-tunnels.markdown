@@ -4,7 +4,7 @@ title:  "Setup a local HTTPS server with pow and tunnels"
 subtitle: A step-by-step walkthrough
 date:   2014-04-02
 categories: blog
-tags: [osx, ruby, servers, tutorial]
+tags: [osx, ruby, tutorial]
 excerpt:
 ---
 ##Project Setup

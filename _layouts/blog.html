@@ -8,7 +8,8 @@
     <div class="box">
       <div class="row">
 
-        {{ content }}
+        {% include blog/left-column.html %}
+        {% include blog/right-column.html activeTag=page.activeTag %}
 
       </div>
     </div>
@@ -21,7 +22,7 @@
       $("abbr.timeago").timeago();
     });
   </script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
