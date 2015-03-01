@@ -15,32 +15,40 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="dsflkj">
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#resume">Resume</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu" style="color:black;">
-                    <li><a href="http://www.benwellsmusic.com" target="_blank">Music</a></li>
-                    <!-- <li><a href="#">Photos</a></li> -->
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="http://www.github.com/benwells" target="_blank">Github</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://www.gooddonegreat.com" target="_blank">Good Done Great</a></li>
-                  </ul>
+              {% if include.layout == "post" %}
+              <li>
+                  <a class="page-scroll" href="/blog">Back To Stories</a>
               </li>
+              <li>
+                  <a class="page-scroll" href="/">Home</a>
+              </li>
+              {% else %}
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#about">About</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#resume">Resume</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#contact">Contact</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" style="color:black;">
+                  <li><a href="http://www.benwellsmusic.com" target="_blank">Music</a></li>
+                  <li><a href="/blog">Blog</a></li>
+                  <li><a href="http://www.github.com/benwells" target="_blank">Github</a></li>
+                  <li class="divider"></li>
+                  <li><a href="http://www.gooddonegreat.com" target="_blank">Good Done Great</a></li>
+                </ul>
+              </li>
+              {% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
