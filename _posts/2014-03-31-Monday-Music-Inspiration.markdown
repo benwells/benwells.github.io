@@ -4,6 +4,7 @@ title:  "Monday Music Inspiration"
 date:   2014-03-31
 categories: blog
 excerpt: Two of my favorite musicians of all time playing together
+tags: [music, random, video]
 ---
 
 
