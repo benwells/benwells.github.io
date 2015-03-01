@@ -33,9 +33,26 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['watch']);
   grunt.registerTask('add-tag', function (tagSlug, tagName) {
+
+    //set the working tag properties
     grunt.config.set('tagSlug', tagSlug);
     grunt.config.set('tagName', tagName);
+
+    //run tag yml task
     grunt.task.run('concat:tagyml');
+
+    //build tag page frontmatter
+    var contents = [
+      "---",
+      "layout: blog",
+      "title: 'Articles by tag:" + tagName + "'",
+      "activeTag: " + tagSlug,
+      "permalink: blog/tag/" + tagSlug + "/",
+      "---"
+    ].join("\n");
+
+    //create new tag md file 
+    grunt.file.write('blog/tag/' + tagSlug + ".md", contents);
   });
 
 };
