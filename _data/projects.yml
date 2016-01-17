@@ -1,6 +1,6 @@
-- name: Good Done Great - Enterprise CSR Applications 
-  repo: / 
-  demourl: https://www.gooddonegreat.com 
+- name: Good Done Great - Enterprise CSR Applications
+  repo: /
+  demourl: https://www.gooddonegreat.com
   image: http://www.gooddonegreat.com/wp-content/themes/DoneGreatTheme/elements/GDGlogo.png
   modalId: portfolioModal5
   tags: AngularJS - node - express - mongoDB - bootstrap - responsive
@@ -20,6 +20,17 @@
     website. The added challenge of building this site was a custom CMS system that allows
     the client to login as a site administrator and customize all content.  For the CMS/authentication system,
     I built it from the ground up using a node.js express application and Mongo DB as the database.
+
+- name: Mrbenwells.com
+  repo: benwells.github.io
+  demourl: http://www.mrbenwells.com
+  image: /img/portfolio/benwells.github.png
+  modalId: portfolioModal4
+  tags: ruby - jekyll - bootstrap
+  subtitle: My personal website and portfolio
+  description: |
+    I was pumped when I discovered github pages!  A free hosted site connected to a github repository,
+    using the very awesome jekyll framework?!  Count me in!
 
 - name: Ben's New Project Template
   repo: new-project-template
@@ -59,4 +70,3 @@
     little application helps jazz musicians answer the question "What should we play?".
     Shake your device to choose a random song, and choose a feel or time signature to allow
     for some potentially unusual song choices.
-    
