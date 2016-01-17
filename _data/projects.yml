@@ -10,6 +10,18 @@
     As their Director of Enterprise Engineering,  I lead one of the best engineering teams in Charleston as we write
     code that helps make the world a better place by increasing employee engagement and helping nonprofits world wide.
 
+- name: React JS Weather App
+  repo: admin.mrbenwells.com
+  demourl: http://github.com/benwells/admin.mrbenwells.com
+  image: /img/portfolio/admin.png
+  modalId: portfolioModal4
+  tags: React - node - express - mongoDB - bootstrap - responsive
+  subtitle: My own React based Weather App inside my personal Admin interface, soon to be admin.mrbenwells.com
+  description: |
+    An excuse to practice working with React JS, I added a weather app to my admin site that lets logged-in users
+    add/remove Locations, save locations for later, and select a location to view the weather for that location.
+    I am working on a design for a full-fledged weather dashboard that I will be implementing soon.
+
 - name: Navon Therapy
   repo: portfolio-Therapist-Website
   demourl: http://www.navontherapy.com
