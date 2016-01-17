@@ -2,7 +2,7 @@
   repo: /
   demourl: https://www.gooddonegreat.com
   image: /img/portfolio/gdg.png
-  modalId: portfolioModal5
+  modalId: portfolioModal1
   tags: AngularJS - node - express - mongoDB - bootstrap - responsive
   subtitle: A robust suite of Enterprise Web Applications to help corporations manage their employee giving.
   description: |
@@ -14,7 +14,7 @@
   repo: admin.mrbenwells.com
   demourl: http://github.com/benwells/admin.mrbenwells.com
   image: /img/portfolio/admin.png
-  modalId: portfolioModal4
+  modalId: portfolioModal2
   tags: React - node - express - mongoDB - bootstrap - responsive
   subtitle: My own React based Weather App inside my personal Admin interface, soon to be admin.mrbenwells.com
   description: |
@@ -26,7 +26,7 @@
   repo: portfolio-Therapist-Website
   demourl: http://www.navontherapy.com
   image: /img/portfolio/navontherapy.png
-  modalId: portfolioModal4
+  modalId: portfolioModal3
   tags: node - express - mongoDB - bootstrap - responsive
   subtitle: Website for navontherapy.com with custom CMS functionality.
   description: |
@@ -51,7 +51,7 @@
   repo: benwells.github.io
   demourl: http://www.mrbenwells.com
   image: /img/portfolio/benwells.github.png
-  modalId: portfolioModal4
+  modalId: portfolioModal5
   tags: ruby - jekyll - bootstrap
   subtitle: My personal website and portfolio
   description: |
@@ -62,7 +62,7 @@
   repo: bubble-shooter
   demourl: http://www.mrbenwells.com/bubble-shooter
   image: /img/portfolio/bubble-shoot.png
-  modalId: portfolioModal4
+  modalId: portfolioModal6
   tags: HTML5 - canvas - Object Oriented JavaScript
   subtitle: A simple HTML5 canvas game
   description: |
@@ -75,7 +75,7 @@
   demourl: http://www.github.com/benwells/new-project-template
   image: http://carlosazaustre.es/blog/content/images/2014/12/grunt_work-1-1.jpg
   tags: node - bower - grunt - mongo - REST API
-  modalId: portfolioModal3
+  modalId: portfolioModal7
   subtitle: Designed to get me up and running quickly.
   description: |
     Taking a queue from Yeoman, I wanted to start my own "new project template" using tools
@@ -89,7 +89,7 @@
   demourl: /fullscreen-calculator
   image: /img/portfolio/calc.png
   tags: angularjs - jquery - bootstrap
-  modalId: portfolioModal1
+  modalId: portfolioModal8
   subtitle: A simple AngularJS implementation
   description: |
     An early AngularJS project,
@@ -101,7 +101,7 @@
   demourl: /whatshouldweplay
   image: /img/portfolio/whatshouldweplay.png
   tags: jquery - bootstrap
-  modalId: portfolioModal2
+  modalId: portfolioModal9
   subtitle: A automatic tunepicker for jazz standards.
   description: |
     Built as an exercise in Object Oriented JavaScript, this
@@ -114,7 +114,7 @@
   demourl: /angular-make-a-deal
   image: /img/portfolio/deal.png
   tags: angular - css animations - JavaScript
-  modalId: portfolioModal2
+  modalId: portfolioModal10
   subtitle: A silly little angular game
   description: |
     The goal of this little app was working under time constraints.  With only a certain amount of
