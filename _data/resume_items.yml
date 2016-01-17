@@ -8,7 +8,7 @@
 
 - title: College Grad!
   timespan: 2007
-  image: http://upload.wikimedia.org/wikipedia/commons/8/83/Randolph_hall_college_of_charleston.JPG
+  image: /img/cofc.JPG
   class: timeline-inverted
   description: |
     Received a Bachelor of Arts in Music (Jazz Performance) from the
@@ -16,7 +16,7 @@
 
 - title: Continuing Education <br> (College Grad...again!)
   timespan: 2007 - 2009
-  image: http://upload.wikimedia.org/wikipedia/commons/8/83/Randolph_hall_college_of_charleston.JPG
+  image: /img/cofc.JPG
   class: timeline-image
   description: |
     Simultaneosly received both my Artist Certificate from the College of
@@ -45,3 +45,11 @@
   class: timeline-inverted
   description: |
     Received a Master of Software Engineering from the University of South Carolina
+
+- title: Director of Enterprise Engineering
+  timespan: 2015 - present
+  image: /img/gdg.png
+  class: timeline-image
+  description: |
+    Leading the best engineering team in CHS.  The code we write helps nonprofits and
+    employee engagement world wide!
