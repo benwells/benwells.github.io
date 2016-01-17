@@ -10,7 +10,7 @@
 
 - name: Navon Therapy
   repo: portfolio-Therapist-Website
-  demourl: /
+  demourl: http://www.navontherapy.com
   image: /img/portfolio/navontherapy.png
   modalId: portfolioModal4
   tags: node - express - mongoDB - bootstrap - responsive
