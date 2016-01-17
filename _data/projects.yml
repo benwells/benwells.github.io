@@ -1,7 +1,7 @@
 - name: Good Done Great - Enterprise CSR Applications
   repo: /
   demourl: https://www.gooddonegreat.com
-  image: http://www.gooddonegreat.com/wp-content/themes/DoneGreatTheme/elements/GDGlogo.png
+  image: /img/portfolio/gdg.png
   modalId: portfolioModal5
   tags: AngularJS - node - express - mongoDB - bootstrap - responsive
   subtitle: A robust suite of Enterprise Web Applications to help corporations manage their employee giving.
