@@ -32,6 +32,18 @@
     I was pumped when I discovered github pages!  A free hosted site connected to a github repository,
     using the very awesome jekyll framework?!  Count me in!
 
+- name: Bubble Shooter!!
+  repo: bubble-shooter
+  demourl: http://www.mrbenwells.com/bubble-shooter
+  image: /img/portfolio/bubble-shoot.png
+  modalId: portfolioModal4
+  tags: HTML5 - canvas - Object Oriented JavaScript
+  subtitle: A simple HTML5 canvas game
+  description: |
+    I really wanted an excuse to play around with JavaScript's prototypical
+    inheritence, and simultaneously wanted to see if I could build a game.  Simple,
+    crude, and never-ending, but this is what I came up with!
+
 - name: Ben's New Project Template
   repo: new-project-template
   demourl: http://www.github.com/benwells/new-project-template
