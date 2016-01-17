@@ -21,6 +21,18 @@
     the client to login as a site administrator and customize all content.  For the CMS/authentication system,
     I built it from the ground up using a node.js express application and Mongo DB as the database.
 
+- name: Ben Wells Music
+  repo: benwellsmusic-rails
+  demourl: http://www.benwellsmusic.com
+  image: /img/portfolio/bwm.png
+  modalId: portfolioModal4
+  tags: rails - ruby - bootstrap - responsive
+  subtitle: My Personal Music Website
+  description: |
+    I have a lot of plans for this site, which is why Rails was chosen as the stack.
+    So far it's a single page static site, but I will be adding more dynamic content,
+    a calendar, and streaming music this year.
+
 - name: Mrbenwells.com
   repo: benwells.github.io
   demourl: http://www.mrbenwells.com
