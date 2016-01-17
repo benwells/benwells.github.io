@@ -96,3 +96,15 @@
     little application helps jazz musicians answer the question "What should we play?".
     Shake your device to choose a random song, and choose a feel or time signature to allow
     for some potentially unusual song choices.
+
+- name: "Make a Deal" game
+  repo: angular-make-a-deal
+  demourl: /angular-make-a-deal
+  image: /img/portfolio/deal.png
+  tags: angular - css animations - JavaScript
+  modalId: portfolioModal2
+  subtitle: A silly little angular game
+  description: |
+    The goal of this little app was working under time constraints.  With only a certain amount of
+    time to code one day, I wanted to design and build an app within the time constraints that I had.
+    I was also looking for an excuse to play around with CSS animations.
