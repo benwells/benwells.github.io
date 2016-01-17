@@ -97,7 +97,7 @@
     Shake your device to choose a random song, and choose a feel or time signature to allow
     for some potentially unusual song choices.
 
-- name: "Make a Deal" game
+- name: Make a Deal game
   repo: angular-make-a-deal
   demourl: /angular-make-a-deal
   image: /img/portfolio/deal.png
