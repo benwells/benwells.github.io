@@ -73,7 +73,7 @@
 - name: Ben's New Project Template
   repo: new-project-template
   demourl: http://www.github.com/benwells/new-project-template
-  image: http://carlosazaustre.es/blog/content/images/2014/12/grunt_work-1-1.jpg
+  image: /img/portfolio/grunt.jpg
   tags: node - bower - grunt - mongo - REST API
   modalId: portfolioModal7
   subtitle: Designed to get me up and running quickly.
