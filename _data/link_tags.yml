@@ -1,7 +1,7 @@
 - href: http://getbootstrap.com/dist/css/bootstrap.min.css
   layout: "all"
 
-- href: /css/agency.css
+- href: /css/agency.css?q=12313
   layout: "default"
 
 - href: /css/clean-blog.min.css
