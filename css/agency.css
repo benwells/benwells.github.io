@@ -60,11 +60,6 @@ entered {
     margin: 0 auto;
 }
 
-#bt-logo-link {
-    color: #505050;
-    font-style:italic;
-}
-
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -897,4 +892,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+a#bt-logo-link {
+    color: #505050!important;
+    font-style:italic;
 }
