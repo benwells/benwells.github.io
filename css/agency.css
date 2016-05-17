@@ -60,6 +60,11 @@ entered {
     margin: 0 auto;
 }
 
+#bt-logo-link {
+    color: #505050;
+    font-style:italic;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
