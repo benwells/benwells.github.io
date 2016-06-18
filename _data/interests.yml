@@ -1,13 +1,13 @@
 - title: Front-end Engineer
-  iconClass: fa-cloud
+  iconClass: cloud
   description: I have an overwhelming passion for all things JavaScript, but also create with Ruby, C#, and PHP.  The MEAN stack is where my heart is.
 
 - title: APIs and Data
-  iconClass: fa-database
+  iconClass: database
   description: I build APIs using Node, Ruby, and ASP.NET and love to tell stories with data.  MySQL, PostgreSQL, MongoDb to name a few.
 
 - title: Scalability and Deployment
-  iconClass: fa-gears
+  iconClass: settings
   description: |
-    I'm an Amazon Web Services fanatic with a passion for clustered, cloud-based infrastructure. 
+    I'm an Amazon Web Services fanatic with a passion for clustered, cloud-based infrastructure.
     I focus on automated deployment and scalable architecture using Linux, Grunt, and Chef.

@@ -1,0 +1,133 @@
+/*.overlay.fixed > .menu {
+  left: 1000px!important;
+}*/
+body {
+  background: none;
+}
+.myfont {
+  font-family: Raleway!important;
+  font-weight: 200!important;
+  color:#E6E0CB!important;
+}
+
+.nobg {
+  background:none!important;
+}
+
+/*.overlay .menu {
+  position: relative;
+  left: 0;
+  transition: left 0.5s ease;*/
+/*}*/
+
+.item:hover {
+  border-color: #1B1C1D!important;
+}
+
+.main-menu {
+  height: 100px;
+  position: absolute;
+  /*width: 100%;*/
+  top: 100px;
+  z-index: 999;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landing-segment {
+  height: 100%;
+  margin: 0!important;
+  border-radius: 0!important;
+  z-index: 1;
+  /*background: url(fade.jpg) no-repeat center center fixed;*/
+  background: #1A3742;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183))!important;
+  background-image: -webkit-linear-gradient(top, #1A3742, #9EA183)!important;
+    /*background-image: -webkit-linear-gradient(top, #0A4C5D, #848484)!important;*/
+    background-image: -webkit-linear-gradient(top, #0A4C5D, #C6C5B9)!important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*-webkit-filter: blur(1px);*/
+  /*-moz-filter: blur(1px);*/
+  /*-o-filter: blur(1px);*/
+  /*-ms-filter: blur(1px);*/
+  /*filter: blur(1px);*/
+}
+
+h1.main-title {
+  text-align:center;
+  font-size:80px;
+  letter-spacing:18px;
+}
+
+.mast-col-1 {
+  text-align:right;
+  margin-top:15px;
+}
+
+#sidebar-icon {
+  z-index:2;
+  display:none;
+  font-size:37px;
+}
+
+#title {
+  margin-top:125px;
+  margin-bottom:15px;
+}
+
+@media (max-width: 991px) {
+  h1.main-title {
+    font-size:60px;
+    letter-spacing: 10px;
+  }
+  .mast-col-1 {
+    text-align:center;
+    margin-top:12px;
+  }
+}
+
+
+@media (max-width: 610px) {
+  .small-pic {
+    display:block;
+  }
+  .large-pic {
+    display:none!important;
+  }
+  h1.main-title {
+    font-size:30px;
+    letter-spacing: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #sidebar-icon {
+    display:inline-block;
+    position:fixed;
+    left: 20px;
+    top: 20px;
+  }
+  #social-menu {
+      margin-top:160px;
+  }
+  #title {
+    margin-top: 10px;
+  }
+  img.main-img {
+    margin:0 auto;
+  }
+  .small-pic {
+    display:block!important;
+  }
+  .large-pic {
+    display:none!important;
+  }
+  .desktop-menu {
+    display: none!important;
+  }
+}

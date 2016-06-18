@@ -1,0 +1,26 @@
+<div class="ui segment" style="background-color: #1A3742;background-image: url('/img/bg_stripes.png');margin:0;height:100%;">
+  <div class="ui text container" style="max-width: 1100px!important;">
+    <h1 class="ui icon header myfont">
+      <i class="settings icon inverted"></i>
+      <div class="content">
+        Skills
+        <div class="sub header myfont">Hire me to do the following:</div>
+        <div class="ui three stackable cards">
+          {% for interest in site.data.interests %}
+            <div class="card">
+              <div class="image">
+                <i class="{{ interest.iconClass }} icon"></i>
+              </div>
+              <div class="content" >
+                <a class="header">{{ interest.title }}</a>
+                <div class="description" style="font-size:14px;">
+                  <p> {{ interest.description }} </p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </h1>
+  </div>
+</div>
