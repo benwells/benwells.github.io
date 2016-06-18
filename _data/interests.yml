@@ -1,13 +1,29 @@
-- title: Front-end Engineer
+- title: UI/UX
   iconClass: cloud
-  description: I have an overwhelming passion for all things JavaScript, but also create with Ruby, C#, and PHP.  The MEAN stack is where my heart is.
+  type: tech
+  description: JavaScript | React | Flux | Angular
 
-- title: APIs and Data
+- title: APIs & Data
   iconClass: database
-  description: I build APIs using Node, Ruby, and ASP.NET and love to tell stories with data.  MySQL, PostgreSQL, MongoDb to name a few.
+  type: tech
+  description: Node | Ruby | MongoDB | PostgreSQL
 
-- title: Scalability and Deployment
+- title: DevOps & Automation
   iconClass: settings
-  description: |
-    I'm an Amazon Web Services fanatic with a passion for clustered, cloud-based infrastructure.
-    I focus on automated deployment and scalable architecture using Linux, Grunt, and Chef.
+  type: tech
+  description: AWS | Heroku | Webpack | Gulp
+
+- title: Music
+  iconClass: music
+  type: other
+  description: Bass | Piano | Logic Pro
+
+- title: Cycling
+  iconClass: thumbs outline up
+  type: other
+  description: Cannondale | Trek
+
+- title: Gardening
+  iconClass: tree
+  type: other
+  description:
