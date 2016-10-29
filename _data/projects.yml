@@ -12,7 +12,7 @@
 
 - name: React JS Weather App
   repo: admin.mrbenwells.com
-  demourl: http://github.com/benwells/admin.mrbenwells.com
+  demourl: https://github.com/benwells/admin.mrbenwells.com
   image: /img/portfolio/admin.png
   modalId: portfolioModal2
   tags: React - node - express - mongoDB - bootstrap - responsive
