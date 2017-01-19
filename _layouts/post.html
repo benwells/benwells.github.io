@@ -1,67 +1,17 @@
-<!DOCTYPE html>
-<html>
-{% include head.html layout="post" %}
-
-<body>
-  {% include navigation.html layout="post" %}
-
-  <!-- Page Header -->
-  <!-- Set your background image for this header on the line below. -->
-  <header class="intro-header" style="background-image: url('/img/bg2-dark.png');color:black;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <div class="post-heading">
-            <h1>{{ page.title }}</h1>
-            <h2 class="subheading">{{ page.subtitle }}</h2>
-            <span class="meta">{{ page.date | date: "%B %-d, %Y" }}</span>
-          </div>
-        </div>
-      </div>
+---
+layout: default
+---
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
     </div>
+    <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <!-- Post Content -->
-  <article>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </article>
-
-  <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <ul class="list-inline text-center">
-            {% for item in site.data.socialbuttons %}
-              <li>
-                <a href="{{ item.url }}" target="_blank">
-                  <i class="fa {{ item.iconclass }} fa-2x"></i>
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; mrbenwells.com 2015</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- jQuery -->
-  <script src="/js/jquery.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="/js/bootstrap.min.js"></script>
-
-  <!-- Custom Theme JavaScript -->
-  <script src="/js/clean-blog.min.js"></script>
-</body>
-
-</html>
+  <section class="post">
+    {{ content }}
+  </section>
+  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+</article>
+{% if page.comments != false %}{% include disqus.html %}{% endif %}

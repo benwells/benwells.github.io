@@ -1,51 +1,35 @@
-var lib = {
-  init_animations_url: function (urlPattern) {
-    var path = window.location.href.replace('http://benwells.github.io','').replace('http://localhost:4000',''),
-        logo;
-
-    if (urlPattern == path) {
-      logo = $('#logo').addClass('fadeIn');
-
-      setTimeout(function(){
-        logo.removeClass('fadeIn').parent().addClass('grow');
-      }, 1500);
+---
+layout: null
+---
+$(document).ready(function () {
+  $('a.blog-button').click(function (e) {
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+    currentWidth = $('.panel-cover').width()
+    if (currentWidth < 960) {
+      $('.panel-cover').addClass('panel-cover--collapsed')
+      $('.content-wrapper').addClass('animated slideInRight')
+    } else {
+      $('.panel-cover').css('max-width', currentWidth)
+      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
     }
-  },
-  nav_pill_click_handler: function () {
-    $('#navPills').find('a').click(function (e) {
-      var t    = this,
-          href = t.href;
+  })
 
-      e.preventDefault();
-      $(t).parent().parent().addClass('fadeOut');
-
-      //setTimeout to wait for fade out animation to complete before changing pages
-      setTimeout(function (){
-        window.location = href;
-      }, 200);
-    });
-  },
-  register_media_hover: function () {
-    $('li.media').hover(function(){
-      $('small, h4', this).toggleClass('bold');
-    });
-  },
-  scroll_home: function (urlPatten) {
-    var path = window.location.href.replace('http://benwells.github.io','').replace('http://localhost:4000','');
-
-    if (urlPatten == path) {
-      $(document).scroll(function() {
-        if ($('#hero').height() > 80) {
-          $("#hero").animate({ height: '80px' }, 360); }
-      });
-    }
+  if (window.location.hash && window.location.hash == '#blog') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
   }
-};
 
-$('document').ready(function() {
-  lib.init_animations_url('/');
-  lib.nav_pill_click_handler();
-  lib.register_media_hover();
-  // lib.scroll_home("/");
+  if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+  }
 
-});
+  $('.btn-mobile-menu').click(function () {
+    $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
+
+  $('.navigation-wrapper .blog-button').click(function () {
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
+
+})

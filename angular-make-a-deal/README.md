@@ -1,2 +1,0 @@
-angular-make-a-deal
-===================
