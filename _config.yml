@@ -1,8 +1,10 @@
 # Site settings
-title: I Am Ben Wells
-description: 'Programmer, Musician, Husband, Skeptic'
+title: Hi, my name is Ben
+description: 'Software Engineer, Musician, Husband, Lover of Puzzles'
 url: 'http://benwells.github.io'
 baseurl: '/'
+
+
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
